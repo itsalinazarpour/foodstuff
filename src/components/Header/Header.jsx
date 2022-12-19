@@ -22,7 +22,7 @@ function Header() {
     <header className="header">
       <nav className="nav">
         <Link to={"/"} className="logo">
-          {state.lng === "PR" ? "  فروشگاه مواد غذایی " : "Foodstuffs Store"}
+          {state.lng === "PR" ? "  فروشگاه مواد غذایی " : "FOODSTUFFS STORE"}
         </Link>
         <div className="search_header">
           {location.pathname === "/" && (
